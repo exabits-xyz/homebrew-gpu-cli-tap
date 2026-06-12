@@ -1,28 +1,28 @@
 class Egpu < Formula
   desc "Exabits GPU Cloud CLI"
   homepage "https://github.com/exabits-xyz/gpu-cli"
-  version "0.0.2"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/exabits-xyz/gpu-cli/releases/download/v#{version}/egpu_darwin_arm64.tar.gz"
-      sha256 "cba6fbb108e2ba9396703d9f3591808ba962ce753455dee94138c5a6008b486d"
+      sha256 "9f12f680d06189741640a720d614c89e8ac36c3b83eb88caa34a2c38300d3c06"
     end
     on_intel do
       url "https://github.com/exabits-xyz/gpu-cli/releases/download/v#{version}/egpu_darwin_amd64.tar.gz"
-      sha256 "116eb6fa39ef1d63e407da3805f28dca6ad06abb7b99ab9a94d0a09940100f54"
+      sha256 "b5c24f289ac5a28ef1ee24b150a257538eb850afb87c9a331c04a0ca527e1f36"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/exabits-xyz/gpu-cli/releases/download/v#{version}/egpu_linux_arm64.tar.gz"
-      sha256 "bebaa11a8d1f9c08d36c01686dd7a5ee963ae606b92981c3cc4e0c3a7eaefcf0"
+      sha256 "765c12d5184a92bd10129be752bf7ef6bb5c4a83cedfe8ee8e6d01f68b835b9c"
     end
     on_intel do
       url "https://github.com/exabits-xyz/gpu-cli/releases/download/v#{version}/egpu_linux_amd64.tar.gz"
-      sha256 "db64cb5f4e0ca05cd54c86e0b4dbedc8dd0ce4202776edce0f258c26f5dbab90"
+      sha256 "71a98db9dd849fc6f233ea38b59d05be5d191a489c2c80a922c864ec6453d0cb"
     end
   end
 
